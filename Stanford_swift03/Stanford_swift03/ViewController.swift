@@ -24,9 +24,15 @@ class ViewController: UIViewController {
     func tuples() {
         let x: (s: String, d: Double, b: Bool) = ("Hello", 42.1, true)
         
-        print(">>> string = \(x.s)")
-        print(">>> double = \(x.d)")
-        print(">>> bool = \(x.b)")
+        print(">>> String = \(x.s)")
+        print(">>> Double = \(x.d)")
+        print(">>> Bool = \(x.b)")
+        
+        let y: (Int, String) = (42 , "Hello world")
+        let (cislo, text) = y
+        
+        print(">>> Int: \(cislo)")
+        print(">>> String: \(text)")
     }
 
 
