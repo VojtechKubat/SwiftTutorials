@@ -12,6 +12,8 @@
 		79AFB0661F6ECC850039669F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AFB0641F6ECC850039669F /* Main.storyboard */; };
 		79AFB0681F6ECC850039669F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AFB0671F6ECC850039669F /* Assets.xcassets */; };
 		79AFB06B1F6ECC850039669F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AFB0691F6ECC850039669F /* LaunchScreen.storyboard */; };
+		79D23C9E1F780DD600E90484 /* ColorBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23C9D1F780DD600E90484 /* ColorBox.swift */; };
+		79D23CA01F780E2300E90484 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23C9F1F780E2300E90484 /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		79AFB0671F6ECC850039669F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79AFB06A1F6ECC850039669F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79AFB06C1F6ECC850039669F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D23C9D1F780DD600E90484 /* ColorBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBox.swift; sourceTree = "<group>"; };
+		79D23C9F1F780E2300E90484 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		79AFB05F1F6ECC850039669F /* Stanford_swift03 */ = {
 			isa = PBXGroup;
 			children = (
+				79D23C991F78006600E90484 /* Classes */,
 				79AFB0601F6ECC850039669F /* AppDelegate.swift */,
 				79AFB0621F6ECC850039669F /* ViewController.swift */,
 				79AFB0641F6ECC850039669F /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				79AFB06C1F6ECC850039669F /* Info.plist */,
 			);
 			path = Stanford_swift03;
+			sourceTree = "<group>";
+		};
+		79D23C991F78006600E90484 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79D23C9D1F780DD600E90484 /* ColorBox.swift */,
+				79D23C9F1F780E2300E90484 /* Box.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D23C9E1F780DD600E90484 /* ColorBox.swift in Sources */,
+				79D23CA01F780E2300E90484 /* Box.swift in Sources */,
 				79AFB0631F6ECC850039669F /* ViewController.swift in Sources */,
 				79AFB0611F6ECC850039669F /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +318,7 @@
 				79AFB0711F6ECC850039669F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,6 +18,8 @@ class ViewController: UIViewController {
 //        filterArray()
 //        mapArray()
 //        ViewController.reduceArray()
+//        ViewController.enumerateDictionary()
+        charactersInString(input: "Hello world 👍řěš")
     }
 
     override func didReceiveMemoryWarning() {
@@ -67,6 +69,34 @@ class ViewController: UIViewController {
         
         print("Original array = \(ar.description)")
         print("Array reduce = \(combined)")
+    }
+    
+    static func enumerateDictionary() {
+        var dict = [String:Int]()
+        dict["first"] = 154
+        dict["second"] = 789
+        dict["another"] = 15
+        
+        // enumerate dictionary as tuple
+        for (key, value) in dict {
+            print("key = \(key) - value = \(value)")
+        }
+    }
+    
+    func charactersInString(input: String?) {
+        guard let str = input else {
+            print("characterInString - input is nil")
+            return
+        }
+        
+        print(">>> string length = \(str.count)")
+        print(">>> characters count = \(str.characters.count)")
+        
+        let strArray = str.characters
+        for current in strArray {
+            print("> \(current)")
+        }
+        
     }
 
 }
